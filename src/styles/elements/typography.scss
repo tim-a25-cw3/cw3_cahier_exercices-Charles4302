@@ -22,10 +22,13 @@ h1 {
 h2 {
     font-size: var(--font-size-h2);
     font-family: var(--font-secondary);
+    font-weight: 300;
+    margin-bottom: var(--spacing-xl);
 }
 
 h3 {
     font-size: var(--font-size-h3);
+    font-family: var(--font-secondary);
 }
 
 h4 {
@@ -38,4 +41,14 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+p {
+    font-family: var(--font-p);
+    font-size: var(--font-p-section);
+    margin: 0;
+    color: rgba(255, 255, 255, 0.55);
+}
+a {
+    font-family: var(--font-secondary);
 }

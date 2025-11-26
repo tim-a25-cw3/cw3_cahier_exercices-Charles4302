@@ -5,8 +5,10 @@
    ========================================================================== */
 
 body {
-    color: var(--color-black);
+    background-color: var(--color-black);
+    color: var(--color-white);
     font-family: var(--font-primary);
+    font-weight: 300;
     font-size: var(--font-size-content);
     line-height: 1.6;
 }
